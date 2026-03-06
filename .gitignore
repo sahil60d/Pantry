@@ -1,0 +1,32 @@
+# Sensitive configuration
+Config.xcconfig
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/*.xcworkspace
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# User-specific data
+*.xcuserdata
+*.xcuserdatad
+xcuserdata/
+
+# Build files
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+*.swiftpm
+.build/
+
+# Supabase local dev files (may contain project ref, connection URLs, etc.)
+supabase/.temp/
+.supabase/
