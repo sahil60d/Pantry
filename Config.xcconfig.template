@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig.template
+//  Pantry-UI
+//
+//  Configuration template file
+//  1. Copy this file to Config.xcconfig
+//  2. Replace the placeholder values with your actual Supabase credentials
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+SUPABASE_URL = "YOUR_SUPABASE_URL_HERE"
+SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY_HERE"
